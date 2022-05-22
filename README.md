@@ -6,8 +6,9 @@
 
 ````
 git clone git@github.com:xingkongqwq/coj.git
+cd coj
 gradlew
 gradlew bootJar
 ````
 
-如果运气好，在第二步和第三步结尾都出现 `BUILD SUCCESSFUL` 的话，那就看看build目录下吧
+如果运气好，在第二步和第三步结尾都出现 `BUILD SUCCESSFUL` 的话，那就看看build/libs目录下吧
