@@ -23,9 +23,9 @@ dependencies {
 tasks.withType(JavaCompile) {
 	options.encoding = "UTF-8"
 }
-tasks.named('test') {
-	useJUnitPlatform()
-}
-springBoot {
+bootJar {
+	manifest {
+		attributes 'Start-Class': "io.github.xingkongqwq.coj.CojApplication"
+	}
     mainClass = "io.github.xingkongqwq.coj.CojApplication"
 }
