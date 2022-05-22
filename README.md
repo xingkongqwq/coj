@@ -11,4 +11,4 @@ gradlew
 gradlew bootJar
 ````
 
-如果运气好，在第二步和第三步结尾都出现 `BUILD SUCCESSFUL` 的话，那就看看build/libs目录下吧
+如果运气好，在第三步和第四步结尾都出现 `BUILD SUCCESSFUL` 的话，那就看看build/libs目录下吧
