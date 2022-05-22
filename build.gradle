@@ -26,3 +26,6 @@ tasks.withType(JavaCompile) {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+springBoot {
+    mainClass = "io.github.xingkongqwq.coj.CojApplication"
+}
