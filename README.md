@@ -8,7 +8,6 @@
 git clone git@github.com:xingkongqwq/coj.git
 cd coj
 gradlew
-gradlew copyConfig
 gradlew bootJar
 ````
 
