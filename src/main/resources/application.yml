@@ -1,2 +1,7 @@
 server:
+  # 服务器端口
   port: 8080
+coj:
+  # http通信中需要的appid
+  # 默认为coj的sha256
+  appid: f61ed358c35ebe7c6c2dc2985692b3bf3d9c37ce7b0844ec4e0c3df6f0415754
